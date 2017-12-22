@@ -1,2 +1,2 @@
 # docker-python3-opencv-ocr
-Tesseract OCR python3 with OpenCV
+Python3 and OpenCV with OCR Capabilities (using tesserocr)
