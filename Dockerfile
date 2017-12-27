@@ -10,5 +10,4 @@ RUN git clone https://github.com/tesseract-ocr/tesseract.git --branch 3.04 --sin
 RUN cd tesseract-ocr && ./autogen.sh && ./configure && make && make install && ldconfig
 RUN pip install requests image tesserocr
 RUN wget https://github.com/tesseract-ocr/tessdata/raw/master/eng.traineddata
-RUN mkdir /usr/local/share/tessdata
 RUN cp eng.traineddata /usr/local/share/tessdata/eng.traineddata
